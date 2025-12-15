@@ -11,7 +11,7 @@ let count = 0;
 let d;
 
 btn.addEventListener('click', () => {
-  pos =[];
+  pos = [];
   createCircles();
   draw();
 });
