@@ -7,7 +7,6 @@ let x;
 let y;
 let r;
 let pos = [];
-let count = 0;
 let d;
 
 btn.addEventListener('click', () => {
@@ -63,7 +62,6 @@ function reCollission() {
         }
       }
     }
-    count++;
   }
 }
 
