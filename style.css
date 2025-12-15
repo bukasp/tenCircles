@@ -4,3 +4,15 @@ body {
 canvas {
   background-color: rgb(27, 27, 27);
 }
+button {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}
+
+@media (max-width: 500px) {
+    canvas {
+        width: 100%;
+        height: auto;
+}
+}
