@@ -7,7 +7,6 @@ let x;
 let y;
 let r;
 let pos = [];
-let count = 0;
 let d;
 
 btn.addEventListener('click', () => {
@@ -63,13 +62,11 @@ function reCollission() {
         }
       }
     }
-    count++;
   }
 }
 
 // Генерация позиций кругов
 function createCircles() {
-
   for (let m = 0; m <= 9; m++) {
     posFunc();
     pos.push({
