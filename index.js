@@ -51,7 +51,7 @@ function reCollission() {
     for (let i = 0; i <= pos.length - 1; i++) {
       if (i !== k) {
         if (collision(pos[i].x, pos[k].x, pos[i].y, pos[k].y, pos[i].r, pos[k].r) === false) {
-          pos.splice(-1);
+          pos.pop();
           posFunc();
           pos.push({
             'x': x,
